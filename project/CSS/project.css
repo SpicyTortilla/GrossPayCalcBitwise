@@ -1,0 +1,79 @@
+body{
+	font-family: sans-serif, helvetica, arial;
+	background-color: #eee;
+}
+
+#container{
+	width: 1200px;
+	min-height: 500px;
+	background-color: cornflowerblue;
+	margin: auto;
+	border-radius: 5px;
+}
+header{
+	display: flex;
+	background-color: lightgreen;
+	color: green;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	border-radius: 5px;
+}
+
+main{
+	background-color: lightyellow;
+	padding: 50px;
+	height:335px;
+	border-radius: 5px;
+}
+
+form{
+	display: flex;
+	justify-content: center;
+}
+
+input{
+	margin: 10px;
+	height: 25px;
+	background-color: lightgreen;
+	border: solid 2px green;
+	border-radius: 5px;
+}
+
+section{
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+#calc{
+	background-color: #F0E68C;
+}
+
+#reset{
+	background-color: indianred;
+}
+
+div{
+	width: 200px;
+	min-height: 50px;
+	border: solid 1px black;
+	background-color: #FAEBD7;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+footer{
+	background-color: #FFA07A;
+	height: 60px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
