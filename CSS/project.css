@@ -24,8 +24,13 @@ header{
 main{
 	background-color: lightyellow;
 	padding: 50px;
-	height:335px;
+	min-height:335px;
 	border-radius: 5px;
+}
+
+#c{
+	margin: auto;
+	text-align: center;
 }
 
 form{
@@ -61,7 +66,7 @@ button{
 	background-color: indianred;
 }
 
-div{
+.r{
 	width: 200px;
 	min-height: 50px;
 	border: solid 1px black;
@@ -70,6 +75,17 @@ div{
 	margin: 10px;
 	border-radius: 5px;
 }
+
+#s{
+	justify-content: space-around;
+}
+
+#em{
+	display: flex;
+	justify-content: space-around;
+	
+}
+
 footer{
 	background-color: #FFA07A;
 	height: 60px;

@@ -5,36 +5,58 @@
 
 	<link rel="stylesheet" type="text/css" href="CSS/project.css">
 
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- note to self external js/jquery goes first -->
 
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- personal java goes last -->
 	<script type="text/javascript" src="JS/project.js"></script>
 </head>
 <body>
 
-<div id="container">
+<div class="r" id="container">
 
-<header><h1>Gross Pay Calculator</h1></header>
+<header><h1>Gross Pay Calculator Ver.1.1</h1></header>
 <main>
-<form id="frm">
 
-<input id="forminput1" type="number" name="hrswrkd" placeholder="How many hours?"><br>
-
-<input id="forminput2" type="number" name="hrswrkd" placeholder="How many hours?"><br>
+	<p id="c">*Accepts Only Numbers!</p>
 
 
-<input id="forminput3" type="number" name="hrswrkd" placeholder="How many hours?">
+<form id="frm1">
+	<p>Employee 1</p>
 
+	<input id="forminput1" type="number" name="wage" placeholder="What's your wage?">
+	<input id="forminput2" type="number" name="hours" placeholder="How many hours?">
 </form>
+
+<form id="frm2">
+	<p>Employee 2</p>
+	<input id="forminput3" type="number" name="wage" placeholder="What's your wage?">
+	<input id="forminput4" type="number" name="hours" placeholder="How many hours?">
+</form>
+
+<form id="frm3">
+	<p>Employee 3</p>
+	<input id="forminput5" type="number" name="wage" placeholder="What's your wage?">
+	<input id="forminput6" type="number" name="hours" placeholder="How many hours?">
+</form>
+
 
 <section>
 <button id="calc">Calculate</button>
 <button id="reset">Reset</button>
 </section>
 <br>
-<section>
-<div id="result1"></div>
-<div id="result2"></div>
-<div id="result3"></div>
+
+<div id="em">
+	<div><p>Total pay for Employee 1</p></div>
+	<div><p>Total pay for Employee 2</p></div>
+	<div><p>Total pay for Employee 3</p></div>
+</div>
+
+<section id="s">
+<div class="r" id="result1"></div>
+<div class="r" id="result2"></div>
+<div class="r" id="result3"></div>
 </section>
 </main>
 
